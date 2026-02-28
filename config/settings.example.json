@@ -1,0 +1,16 @@
+{
+  "runtime": {
+    "device": "cuda",
+    "use_rvc_postprocess": true
+  },
+  "xtts": {
+    "model_name": "tts_models/multilingual/multi-dataset/xtts_v2",
+    "language": "ko"
+  },
+  "rvc": {
+    "enabled": true,
+    "inference_script": "tools/rvc_passthrough.py",
+    "model_path": "",
+    "index_path": ""
+  }
+}

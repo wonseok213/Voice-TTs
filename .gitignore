@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+
+config/settings.json
+config/coqui_tos_agreed.txt
+
+data/
+models/
+outputs/
+
+.DS_Store
